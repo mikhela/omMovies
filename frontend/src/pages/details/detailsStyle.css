@@ -1,0 +1,101 @@
+
+
+.movieBanner
+{
+    width: 100%;
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+}
+
+.information__Container
+{
+    box-shadow: 0px -7px 18px 0px rgba(255,255,255,0.64);
+    -webkit-box-shadow: 0px -7px 18px 0px rgba(255,255,255,0.64);
+    -moz-box-shadow: 0px -7px 18px 0px rgba(255,255,255,0.64);
+    width: 850px;
+    max-width: 80%;
+    height: 500px;
+    position: fixed;
+    border-radius: 20px;
+    background-color: black;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    display: flex;
+    gap: 10px;
+}
+@media only screen and (max-width: 770px)
+{
+    .information__Container
+    {
+        left: 55%;
+    }
+}
+.content_left
+{
+    width: 45%;
+    height: 100%;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.content_right
+{
+    width: 45%;
+    height: 100%;
+    color: white;
+    padding: 10px;
+}
+
+.content_right #title
+{
+    font-size: 20px;
+}
+
+.content_right #overview
+{
+    font-size: 14px;
+    margin-top: 20px;
+}
+@media only screen and (max-width: 800px) {
+    .content_right #title
+{
+    font-size: 18px;
+}
+    .content_right #overview
+    {
+        height: 150px; 
+        overflow-y: auto;
+        margin-top: 0;
+    }
+}
+.content_right_mininfo
+{
+    margin-top: 15px;
+}
+.content_right #vote
+{
+    margin-top: 15px;
+}
+.content_right #voteAv
+{
+    margin-left: 8px;
+}
+.content_right #popularity
+{
+    margin-top: 15px;
+}
+.content_right_mininfo  #imdb
+{
+    margin-top: 10px;
+    background-color: orange;
+    padding: 4px;
+    border-radius: 8px;
+    text-align: center;
+    color: black;
+}

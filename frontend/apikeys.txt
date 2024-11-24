@@ -1,0 +1,17 @@
+1. movie genres
+https://api.themoviedb.org/3/genre/movie/list?api_key=cd6592beb58e675d2cb6fdf038c87822
+
+2. Top rated
+https://api.themoviedb.org/3/movie/top_rated?api_key=cd6592beb58e675d2cb6fdf038c87822
+
+3. Popular
+https://api.themoviedb.org/3/movie/popular?api_key=cd6592beb58e675d2cb6fdf038c87822
+
+4. Trailer
+https://api.themoviedb.org/3/movie/957452/videos?api_key=cd6592beb58e675d2cb6fdf038c87822
+
+5. Movies
+https://api.themoviedb.org/3/discover/movie?api_key=cd6592beb58e675d2cb6fdf038c87822
+
+6. Tv Shows
+https://api.themoviedb.org/3/discover/tv?api_key=cd6592beb58e675d2cb6fdf038c87822

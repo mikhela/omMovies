@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    width: 90%;
+    margin: auto;
+}
+
+.blur
+{
+    backdrop-filter: blur(20px);
+}
+
+.noscrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .noscrollbar {
+    scrollbar-width: none; 
+  }
+  
+  .sectionnoscrollbar {
+    overflow-y: scroll; 
+    -ms-overflow-style: none; 
+  }
